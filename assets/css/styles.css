@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'overseer';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/overseer.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'monofonto';
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/monofonto.woff2") format('woff2');
+}
+
+:root {
+  --blue-dark: #1a4886;
+  --blue-primary: #447AB9;
+  --blue-light: #82A7D6;
+  --yellow-primary: #FEF265;
+  --yellow-dark: #c2aa50;
+  --yellow-light: #FCE8A4;
+  --yellow-extra-light: #FEEED4;
+
+  --black-color: #1A1A1A;
+}
+
+.title-img {
+  width: 3rem;
+}
+
+.overseer-font {
+  font-family: 'overseer', sans-serif;
+}
+
+.monofonto-font {
+  font-family: 'monofonto', sans-serif;
+}
+
+.bg-black-color {
+  background-color: var(--black-color);
+}
+
+.bg-blue-dark-color {
+  background-color: var(--blue-dark);
+}
+
+.yellow-light-color {
+  color: var(--yellow-light);
+}
+
+.yellow-dark-color {
+  color: var(--yellow-dark);
+}
+
+.yellow-extra-light-color {
+  color: var(--yellow-extra-light);
+}
+
+.navbar-nav .nav-link {
+  color: var(--yellow-dark) !important;
+}
+
+body {
+  background-color: var(--black-color);
+  color: var(--yellow-extra-light);
+}
