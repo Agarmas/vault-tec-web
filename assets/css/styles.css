@@ -60,6 +60,26 @@
   color: var(--yellow-dark) !important;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+
+
 body {
   background-color: var(--black-color);
   color: var(--yellow-extra-light);
