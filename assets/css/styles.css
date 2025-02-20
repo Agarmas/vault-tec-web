@@ -1,17 +1,15 @@
+/* Fonts */
 @font-face {
   font-family: 'overseer';
-  font-weight: 400;
-  font-style: normal;
   src: url("../fonts/overseer.woff2") format('woff2');
 }
 
 @font-face {
   font-family: 'monofonto';
-  font-weight: 400;
-  font-style: normal;
   src: url("../fonts/monofonto.woff2") format('woff2');
 }
 
+/* CSS variables */
 :root {
   --blue-dark: #1a4886;
   --blue-primary: #447AB9;
@@ -20,10 +18,10 @@
   --yellow-dark: #c2aa50;
   --yellow-light: #FCE8A4;
   --yellow-extra-light: #FEEED4;
-
   --black-color: #1A1A1A;
 }
 
+/* Classes */
 .title-img {
   width: 3rem;
 }
@@ -44,6 +42,10 @@
   background-color: var(--blue-dark);
 }
 
+.yellow-primary-color {
+  color: var(--yellow-primary);
+}
+
 .yellow-light-color {
   color: var(--yellow-light);
 }
@@ -56,10 +58,22 @@
   color: var(--yellow-extra-light);
 }
 
+.logo-text {
+  font-family: 'monofonto', sans-serif;
+  color: var(--yellow-dark);
+}
+
+/* Nav styles */
 .navbar-nav .nav-link {
   color: var(--yellow-dark) !important;
 }
 
+.navbar-nav .nav-link[aria-current="page"] {
+  color: var(--yellow-primary) !important;
+  font-weight: bold;
+}
+
+/* Card styles */
 .card {
   display: flex;
   flex-direction: column;
@@ -72,15 +86,25 @@
 }
 
 .card-body {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100%;
 }
 
+/* Animations */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
 
+/* Global styles */
 body {
   background-color: var(--black-color);
   color: var(--yellow-extra-light);
+  margin: 0;
+  font-family: sans-serif;
 }
