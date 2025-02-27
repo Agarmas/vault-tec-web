@@ -2,307 +2,300 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Atributos S.P.E.C.I.A.L. de Vault-Tec">
-    <title>Vault-Tec - S.P.E.C.I.A.L.</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <script defer src="./assets/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Atributos S.P.E.C.I.A.L. de Vault-Tec">
+  <title>Vault-Tec - S.P.E.C.I.A.L.</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script defer src="./assets/js/bootstrap.min.js"></script>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Menú principal">
-            <div class="container-fluid">
-                <div class="navbar-brand d-flex align-items-center">
-                    <img src="./assets/img/vault_boy.webp" alt="Vault Boy" class="me-2 img-fluid title-img">
-                    <h1 class="fs-2 user-select-none p-0 m-0 logo-text">VAULT-TEC</h1>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                    aria-controls="navbarContent" aria-expanded="false" aria-label="Alternar navegación">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
-                        <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./history.html">Nuestra historia</a></li>
-                        <li class="nav-item"><a class="nav-link" aria-current="page"
-                                href="./special.html">S.P.E.C.I.A.L</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./news.html">Noticias</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./map.html">Mapa</a></li>
-                    </ul>
-                </div>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Menú principal">
+      <div class="container-fluid">
+        <div class="navbar-brand d-flex align-items-center">
+          <img src="./assets/img/vault_boy.webp" alt="Vault Boy" class="me-2 img-fluid title-img">
+          <h1 class="fs-2 user-select-none p-0 m-0 logo-text">VAULT-TEC</h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+          aria-controls="navbarContent" aria-expanded="false" aria-label="Alternar navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0 align-items-md-center">
+            <li class="nav-item"><a class="nav-link" href="./index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="./history.html">Nuestra historia</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="./special.html">S.P.E.C.I.A.L</a></li>
+            <li class="nav-item"><a class="nav-link" href="./news.html">Noticias</a></li>
+            <li class="nav-item"><a class="nav-link" href="./map.html">Mapa</a></li>
+          </ul>
+        </div>
+      </div>
+  </header>
+
+  <main class="container my-5 yellow-extra-light-color">
+    <section class="text-center mb-5">
+      <h2 class="fs-4">Atributos S.P.E.C.I.A.L.</h2>
+      <p>Tras una aniquilación atómica total, la reconstrucción de nuestra gran nación podría depender de ti. Por
+        eso, en Vault-Tec hemos preparado este material educativo para que comprendas mejor los siete atributos
+        que te hacen S.P.E.C.I.A.L.</p>
+    </section>
+
+    <section>
+      <ul class="nav nav-tabs justify-content-center" id="specialTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="strength-tab" data-bs-toggle="tab" data-bs-target="#strength"
+            type="button" role="tab" aria-controls="strength" aria-selected="true">Fuerza</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="perception-tab" data-bs-toggle="tab" data-bs-target="#perception" type="button"
+            role="tab" aria-controls="perception" aria-selected="false">Percepción</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="endurance-tab" data-bs-toggle="tab" data-bs-target="#endurance" type="button"
+            role="tab" aria-controls="endurance" aria-selected="false">Resistencia</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="charisma-tab" data-bs-toggle="tab" data-bs-target="#charisma" type="button"
+            role="tab" aria-controls="charisma" aria-selected="false">Carisma</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="intelligence-tab" data-bs-toggle="tab" data-bs-target="#intelligence"
+            type="button" role="tab" aria-controls="intelligence" aria-selected="false">Inteligencia</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="agility-tab" data-bs-toggle="tab" data-bs-target="#agility" type="button"
+            role="tab" aria-controls="agility" aria-selected="false">Agilidad</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="luck-tab" data-bs-toggle="tab" data-bs-target="#luck" type="button" role="tab"
+            aria-controls="luck" aria-selected="false">Suerte</button>
+        </li>
+      </ul>
+      <div class="tab-content mt-4" id="specialTabContent">
+        <div class="tab-pane fade show active" id="strength" role="tabpanel" aria-labelledby="strength-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Fuerza</h3>
+              <p>En el páramo, los suministros esenciales serán escasos. Cuando encuentres un objeto
+                valioso, consérvalo cerca y protégelo de los abusivos. Cuanta más fuerza tengas, más
+                podrás cargar.</p>
+
+              <p>Conocer tus límites es crucial; de lo contrario, podrías tener dificultades para escapar
+                de situaciones peligrosas, sin importar cuán fuerte seas.</p>
+
+              <p>En ocasiones, te encontrarás cerca de vecinos hostiles. En tales casos, debes aprender a
+                defenderte utilizando tu fuerza natural.</p>
+
+              <p>Usa cualquier objeto afilado o lo suficientemente resistente para golpear. Sé creativo
+                con tu elección, pero mantén la sensatez y busca cualquier cosa que pueda potenciar tu
+                vigor innato.</p>
+
+              <p>A mayor fuerza, mayor impacto. Pero recuerda, algunos momentos requieren más que
+                músculo.</p>
+
+              <p>Sigue haciendo flexiones y dominadas, porque la Fuerza puede ofrecerte aún más.</p>
             </div>
-    </header>
-
-    <main class="container my-5 yellow-extra-light-color">
-        <section class="text-center mb-5">
-            <h2 class="fs-4">Atributos S.P.E.C.I.A.L.</h2>
-            <p>Tras una aniquilación atómica total, la reconstrucción de nuestra gran nación podría depender de ti. Por
-                eso, en Vault-Tec hemos preparado este material educativo para que comprendas mejor los siete atributos
-                que te hacen S.P.E.C.I.A.L.</p>
-        </section>
-
-        <section>
-            <ul class="nav nav-tabs justify-content-center" id="specialTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="strength-tab" data-bs-toggle="tab" data-bs-target="#strength"
-                        type="button" role="tab" aria-controls="strength" aria-selected="true">Fuerza</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="perception-tab" data-bs-toggle="tab" data-bs-target="#perception"
-                        type="button" role="tab" aria-controls="perception" aria-selected="false">Percepción</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="endurance-tab" data-bs-toggle="tab" data-bs-target="#endurance"
-                        type="button" role="tab" aria-controls="endurance" aria-selected="false">Resistencia</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="charisma-tab" data-bs-toggle="tab" data-bs-target="#charisma"
-                        type="button" role="tab" aria-controls="charisma" aria-selected="false">Carisma</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="intelligence-tab" data-bs-toggle="tab" data-bs-target="#intelligence"
-                        type="button" role="tab" aria-controls="intelligence"
-                        aria-selected="false">Inteligencia</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="agility-tab" data-bs-toggle="tab" data-bs-target="#agility"
-                        type="button" role="tab" aria-controls="agility" aria-selected="false">Agilidad</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="luck-tab" data-bs-toggle="tab" data-bs-target="#luck" type="button"
-                        role="tab" aria-controls="luck" aria-selected="false">Suerte</button>
-                </li>
-            </ul>
-            <div class="tab-content mt-4" id="specialTabContent">
-                <div class="tab-pane fade show active" id="strength" role="tabpanel" aria-labelledby="strength-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3>Fuerza</h3>
-                            <p>En el páramo, los suministros esenciales serán escasos. Cuando encuentres un objeto
-                                valioso, consérvalo cerca y protégelo de los abusivos. Cuanta más fuerza tengas, más
-                                podrás cargar.</p>
-
-                            <p>Conocer tus límites es crucial; de lo contrario, podrías tener dificultades para escapar
-                                de situaciones peligrosas, sin importar cuán fuerte seas.</p>
-
-                            <p>En ocasiones, te encontrarás cerca de vecinos hostiles. En tales casos, debes aprender a
-                                defenderte utilizando tu fuerza natural.</p>
-
-                            <p>Usa cualquier objeto afilado o lo suficientemente resistente para golpear. Sé creativo
-                                con tu elección, pero mantén la sensatez y busca cualquier cosa que pueda potenciar tu
-                                vigor innato.</p>
-
-                            <p>A mayor fuerza, mayor impacto. Pero recuerda, algunos momentos requieren más que
-                                músculo.</p>
-
-                            <p>Sigue haciendo flexiones y dominadas, porque la Fuerza puede ofrecerte aún más.</p>
-                        </div>
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/Yuo7AuDGNN8?si=KrBRXEDJrcbvZOit"
-                                    title="Strength video" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="perception" role="tabpanel" aria-labelledby="perception-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3>Percepción</h3>
-                            <p>Al salir a la superficie, te enfrentarás a numerosas molestias post-nucleares de diversas
-                                formas y tamaños, que representarán una amenaza inmediata para tu supervivencia.</p>
-                            <p>Debes aprender a manejar estos peligros, aunque al principio puede ser un desafío. Por
-                                ello, te proporcionamos el Sistema de Apuntado Asistido de Vault-Tec, que te permitirá
-                                escanear las amenazas y detectar sus puntos débiles. Cuanto mayor sea tu Percepción, más
-                                preciso serás. De hecho, dejarás en ridículo a Davey Crockett.</p>
-                            <p>En ocasiones, tendrás que participar en actividades cuestionables. Tu Percepción puede
-                                ayudarte a mantenerte a salvo durante estos momentos moralmente ambiguos.</p>
-                            <p>Practica tus habilidades de hurto con jóvenes, ancianos o personas incapacitadas. A
-                                medida que continúes robando para tener éxito, intenta objetivos más desafiantes y
-                                técnicas más hábiles para obtener mayores recompensas. Pero no te vuelvas demasiado
-                                confiado, campeón.</p>
-                            <p>Siempre busca agudizar tus cinco sentidos; tu Percepción no se detiene ahí.</p>
-                        </div>
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/Vw21X2jKwCM?si=e7Pv6dpo4LyMr-Ye"
-                                    title="Percepcion video" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="endurance" role="tabpanel" aria-labelledby="endurance-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3>Resistencia</h3>
-                            <p>En el páramo, enfrentarás nuevos riesgos para la salud, como infecciones, pérdida
-                                repentina de extremidades y, sobre todo, radiación dañina.</p>
-                            <p>Por suerte, tu formidable Resistencia ha convertido tu cuerpo en una máquina capaz de
-                                resistir los efectos nocivos de la radiación y la violencia física. Como cualquier
-                                máquina, debes mantener tu cuerpo en óptimas condiciones.</p>
-                            <p>Mientras otros sobreviven con alimentos envasados, tu interior resistente te permitirá
-                                buscar carne fresca. Aunque la radiación haya aumentado el tamaño de tus comidas
-                                favoritas, esto significa una nutrición más abundante para ti. Ten cuidado de no morder
-                                más de lo que puedes masticar.</p>
-                            <p>La Resistencia también te ofrece nuevas opciones alimenticias, algunas de las cuales
-                                requieren acostumbrarse.</p>
-                            <p>Ya no se trata de hacer ejercicio por diversión. Ahora, necesitas combinar el atletismo
-                                con actividades cruciales para la supervivencia. Cuanta mayor sea tu Resistencia, más
-                                lejos podrás llegar. Solo asegúrate de ser consciente de los demás.</p>
-                            <p>Desarrolla tu Resistencia y pronto descubrirás cómo mejora tu vida en la superficie.</p>
-                        </div>
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/paYU1neP3xM?si=XD2NYO1LAUKQ0KIp"
-                                    title="Endurance video" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="charisma" role="tabpanel" aria-labelledby="charisma-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3>Carisma</h3>
-                            <p>A diferencia de la América limpia y saludable que quizás recuerdes, el páramo será un
-                                lugar desconfiado, lleno de personajes desagradables y con escasa moralidad.</p>
-                            <p>Ganar la confianza de tus semejantes es una clave para la supervivencia que a menudo se
-                                pasa por alto. Una forma de demostrar tu fiabilidad es a través de un intercambio
-                                comercial justo. Tu reconocida carisma te permitirá obtener tratos más favorables. ¡No
-                                te pongas avaricioso ahora!</p>
-                            <p>Utiliza tu naturaleza carismática para negociar y salir de momentos tensos. Tener amigos
-                                siempre es valioso. "¿Cómo encuentro amigos?", te preguntarás. Puede que una hora de
-                                cóctel improvisada ayude a aliviar el estrés social.</p>
-                            <p>Tu carisma te ayudará a evitar los peligros de la adicción, pero no los efectos
-                                inmediatos de la bebida. Así que practica la moderación, o descubrirás quiénes son tus
-                                verdaderos amigos de la manera difícil.</p>
-                            <p>Descubrirás que incluso los animales salvajes pueden ser encantados por tu carisma.
-                                ¡Parece que has encontrado un nuevo amigo! Oh, no te emociones demasiado, grandullón.
-                            </p>
-                            <p>Como ves, adoptar un enfoque carismático es más que simplemente tener buenos modales.</p>
-                        </div>
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/X95lZ56ddj4?si=vTit-DsnRSyYyeGp"
-                                    title="Charisma video" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="intelligence" role="tabpanel" aria-labelledby="intelligence-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3>Inteligencia</h3>
-                            <p>Con todo el énfasis en la supervivencia física en el páramo, podrías olvidar que a veces
-                                la clave es la supervivencia del más inteligente.</p>
-                            <p>Una mente vacía es un recipiente para el conocimiento, y la Inteligencia es la clave para
-                                desbloquear oportunidades y adaptarse a tu nuevo mundo en la superficie.</p>
-                            <p>Tu avanzado conocimiento te otorgará acceso a nuevos lugares y tecnologías. ¿No es
-                                futurista?</p>
-                            <p>Los supervivientes inteligentes también son más ingeniosos, creando maravillas
-                                tecnológicas propias. Ten en cuenta que la "C" en ciencia significa "Cuidado".</p>
-                            <p>Y cuando las tornas se vuelvan en tu contra, no dudes en dejar de lado tu refinada
-                                Inteligencia por los instintos primarios de supervivencia. Solo procura no perder la
-                                cabeza.</p>
-                            <p>El aprendizaje avanzado en el campo de la Inteligencia puede ofrecer aún más beneficios
-                                en esta era moderna de maravillas.</p>
-                        </div>
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/H6yt-43Vp1M?si=TfyYCMks5RUpZfA0"
-                                    title="Intelligence video" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="agility" role="tabpanel" aria-labelledby="agility-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3>Agilidad</h3>
-                            <p>Una explosión nuclear y la posterior lluvia radiactiva tendrán muchos efectos adversos en
-                                la vida tal como la conocemos. La exposición prolongada e intensa a la radiación puede
-                                transformar a quienes están en la superficie en seres decrépitos y en descomposición,
-                                que han perdido su capacidad de razonar.</p>
-                            <p>Probablemente carecerán de modales y se enfadarán rápidamente. Debes aprender a
-                                aprovechar al máximo las armas de fuego disponibles, pero el entusiasmo solo te llevará
-                                hasta cierto punto. Ahora, intentémoslo de nuevo. Y recuerda que, con tu impresionante
-                                Agilidad, puedes actuar de manera más decisiva en V.A.T.S. ¿Ves? ¡Es pan comido!</p>
-                            <p>La Agilidad también puede ayudarte en momentos difíciles. Pero ¿por qué someterte a un
-                                estrés innecesario? En su lugar, intenta una ruta más sencilla; adoptar un enfoque más
-                                sigiloso siempre merece consideración. Tu Agilidad puede convertir un ataque furtivo en
-                                un movimiento táctico completo. Ten en cuenta que otros pueden tener la misma brillante
-                                idea.</p>
-                            <p>Tu Agilidad te ayudará a moverte por el páramo con facilidad y te brindará otros
-                                beneficios.</p>
-                        </div>
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/bQ_okO2tLN0?si=yz7gBRSWV4qR_wsR"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="luck" role="tabpanel" aria-labelledby="luck-tab">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h3>Suerte</h3>
-                            <p>¿Tienes tu pata de conejo? Bien, es hora de hablar sobre la Suerte.</p>
-                            <p>La diferencia entre vivir o morir en el mundo post-nuclear puede depender del lanzamiento
-                                de una moneda. La Suerte es una fuente misteriosa de curiosidad. ¿Ves? Tu disparo bien
-                                dirigido puede no siempre ser efectivo. Sin embargo, si la Dama Fortuna te favorece,
-                                esos momentos críticos serán pan comido.</p>
-                            <p>¿Qué es esto? ¿Solo encuentras chatarra? El tiempo y la paciencia pueden proporcionarte
-                                una colección adecuada, pero con la Suerte de tu lado, seguro encontrarás algunos
-                                objetos valiosos. No, no, guarda cualquier cosa brillante; podría tener un valor oculto.
-                            </p>
-                            <p>Ten cuidado de no distraerte con tu nueva fortuna. ¡Oh, no! Ese no era el único problema.
-                                Parece que la Suerte te ha ayudado una vez más. Desafortunadamente, ella no puede
-                                salvarte de todas las situaciones. Al menos, tu desgracia puede convertirse en la
-                                fortuna de otro.</p>
-                            <p>La Suerte puede ser caprichosa, pero si logras atraerla a tu lado, las posibilidades son
-                                infinitas.</p>
-                        </div>
-                        <div class="col-md-6 d-flex justify-content-center">
-                            <div class="ratio ratio-16x9">
-                                <iframe width="560" height="315"
-                                    src="https://www.youtube.com/embed/Bke9wvob8Ls?si=kMmyZ68CwPQ-ZaDK"
-                                    title="YouTube video player" frameborder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yuo7AuDGNN8?si=KrBRXEDJrcbvZOit"
+                  title="Strength video" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
             </div>
-        </section>
-    </main>
-    <footer class="mt-auto text-center py-4 bg-dark">
-        <p class="yellow-dark-color mb-0">&copy; 2025 Vault-Tec. Todos los derechos reservados.</p>
-    </footer>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="perception" role="tabpanel" aria-labelledby="perception-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Percepción</h3>
+              <p>Al salir a la superficie, te enfrentarás a numerosas molestias post-nucleares de diversas
+                formas y tamaños, que representarán una amenaza inmediata para tu supervivencia.</p>
+              <p>Debes aprender a manejar estos peligros, aunque al principio puede ser un desafío. Por
+                ello, te proporcionamos el Sistema de Apuntado Asistido de Vault-Tec, que te permitirá
+                escanear las amenazas y detectar sus puntos débiles. Cuanto mayor sea tu Percepción, más
+                preciso serás. De hecho, dejarás en ridículo a Davey Crockett.</p>
+              <p>En ocasiones, tendrás que participar en actividades cuestionables. Tu Percepción puede
+                ayudarte a mantenerte a salvo durante estos momentos moralmente ambiguos.</p>
+              <p>Practica tus habilidades de hurto con jóvenes, ancianos o personas incapacitadas. A
+                medida que continúes robando para tener éxito, intenta objetivos más desafiantes y
+                técnicas más hábiles para obtener mayores recompensas. Pero no te vuelvas demasiado
+                confiado, campeón.</p>
+              <p>Siempre busca agudizar tus cinco sentidos; tu Percepción no se detiene ahí.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Vw21X2jKwCM?si=e7Pv6dpo4LyMr-Ye"
+                  title="Percepcion video" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="endurance" role="tabpanel" aria-labelledby="endurance-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Resistencia</h3>
+              <p>En el páramo, enfrentarás nuevos riesgos para la salud, como infecciones, pérdida
+                repentina de extremidades y, sobre todo, radiación dañina.</p>
+              <p>Por suerte, tu formidable Resistencia ha convertido tu cuerpo en una máquina capaz de
+                resistir los efectos nocivos de la radiación y la violencia física. Como cualquier
+                máquina, debes mantener tu cuerpo en óptimas condiciones.</p>
+              <p>Mientras otros sobreviven con alimentos envasados, tu interior resistente te permitirá
+                buscar carne fresca. Aunque la radiación haya aumentado el tamaño de tus comidas
+                favoritas, esto significa una nutrición más abundante para ti. Ten cuidado de no morder
+                más de lo que puedes masticar.</p>
+              <p>La Resistencia también te ofrece nuevas opciones alimenticias, algunas de las cuales
+                requieren acostumbrarse.</p>
+              <p>Ya no se trata de hacer ejercicio por diversión. Ahora, necesitas combinar el atletismo
+                con actividades cruciales para la supervivencia. Cuanta mayor sea tu Resistencia, más
+                lejos podrás llegar. Solo asegúrate de ser consciente de los demás.</p>
+              <p>Desarrolla tu Resistencia y pronto descubrirás cómo mejora tu vida en la superficie.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/paYU1neP3xM?si=XD2NYO1LAUKQ0KIp"
+                  title="Endurance video" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="charisma" role="tabpanel" aria-labelledby="charisma-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Carisma</h3>
+              <p>A diferencia de la América limpia y saludable que quizás recuerdes, el páramo será un
+                lugar desconfiado, lleno de personajes desagradables y con escasa moralidad.</p>
+              <p>Ganar la confianza de tus semejantes es una clave para la supervivencia que a menudo se
+                pasa por alto. Una forma de demostrar tu fiabilidad es a través de un intercambio
+                comercial justo. Tu reconocida carisma te permitirá obtener tratos más favorables. ¡No
+                te pongas avaricioso ahora!</p>
+              <p>Utiliza tu naturaleza carismática para negociar y salir de momentos tensos. Tener amigos
+                siempre es valioso. "¿Cómo encuentro amigos?", te preguntarás. Puede que una hora de
+                cóctel improvisada ayude a aliviar el estrés social.</p>
+              <p>Tu carisma te ayudará a evitar los peligros de la adicción, pero no los efectos
+                inmediatos de la bebida. Así que practica la moderación, o descubrirás quiénes son tus
+                verdaderos amigos de la manera difícil.</p>
+              <p>Descubrirás que incluso los animales salvajes pueden ser encantados por tu carisma.
+                ¡Parece que has encontrado un nuevo amigo! Oh, no te emociones demasiado, grandullón.
+              </p>
+              <p>Como ves, adoptar un enfoque carismático es más que simplemente tener buenos modales.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/X95lZ56ddj4?si=vTit-DsnRSyYyeGp"
+                  title="Charisma video" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="intelligence" role="tabpanel" aria-labelledby="intelligence-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Inteligencia</h3>
+              <p>Con todo el énfasis en la supervivencia física en el páramo, podrías olvidar que a veces
+                la clave es la supervivencia del más inteligente.</p>
+              <p>Una mente vacía es un recipiente para el conocimiento, y la Inteligencia es la clave para
+                desbloquear oportunidades y adaptarse a tu nuevo mundo en la superficie.</p>
+              <p>Tu avanzado conocimiento te otorgará acceso a nuevos lugares y tecnologías. ¿No es
+                futurista?</p>
+              <p>Los supervivientes inteligentes también son más ingeniosos, creando maravillas
+                tecnológicas propias. Ten en cuenta que la "C" en ciencia significa "Cuidado".</p>
+              <p>Y cuando las tornas se vuelvan en tu contra, no dudes en dejar de lado tu refinada
+                Inteligencia por los instintos primarios de supervivencia. Solo procura no perder la
+                cabeza.</p>
+              <p>El aprendizaje avanzado en el campo de la Inteligencia puede ofrecer aún más beneficios
+                en esta era moderna de maravillas.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/H6yt-43Vp1M?si=TfyYCMks5RUpZfA0"
+                  title="Intelligence video" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="agility" role="tabpanel" aria-labelledby="agility-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Agilidad</h3>
+              <p>Una explosión nuclear y la posterior lluvia radiactiva tendrán muchos efectos adversos en
+                la vida tal como la conocemos. La exposición prolongada e intensa a la radiación puede
+                transformar a quienes están en la superficie en seres decrépitos y en descomposición,
+                que han perdido su capacidad de razonar.</p>
+              <p>Probablemente carecerán de modales y se enfadarán rápidamente. Debes aprender a
+                aprovechar al máximo las armas de fuego disponibles, pero el entusiasmo solo te llevará
+                hasta cierto punto. Ahora, intentémoslo de nuevo. Y recuerda que, con tu impresionante
+                Agilidad, puedes actuar de manera más decisiva en V.A.T.S. ¿Ves? ¡Es pan comido!</p>
+              <p>La Agilidad también puede ayudarte en momentos difíciles. Pero ¿por qué someterte a un
+                estrés innecesario? En su lugar, intenta una ruta más sencilla; adoptar un enfoque más
+                sigiloso siempre merece consideración. Tu Agilidad puede convertir un ataque furtivo en
+                un movimiento táctico completo. Ten en cuenta que otros pueden tener la misma brillante
+                idea.</p>
+              <p>Tu Agilidad te ayudará a moverte por el páramo con facilidad y te brindará otros
+                beneficios.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bQ_okO2tLN0?si=yz7gBRSWV4qR_wsR"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="luck" role="tabpanel" aria-labelledby="luck-tab">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Suerte</h3>
+              <p>¿Tienes tu pata de conejo? Bien, es hora de hablar sobre la Suerte.</p>
+              <p>La diferencia entre vivir o morir en el mundo post-nuclear puede depender del lanzamiento
+                de una moneda. La Suerte es una fuente misteriosa de curiosidad. ¿Ves? Tu disparo bien
+                dirigido puede no siempre ser efectivo. Sin embargo, si la Dama Fortuna te favorece,
+                esos momentos críticos serán pan comido.</p>
+              <p>¿Qué es esto? ¿Solo encuentras chatarra? El tiempo y la paciencia pueden proporcionarte
+                una colección adecuada, pero con la Suerte de tu lado, seguro encontrarás algunos
+                objetos valiosos. No, no, guarda cualquier cosa brillante; podría tener un valor oculto.
+              </p>
+              <p>Ten cuidado de no distraerte con tu nueva fortuna. ¡Oh, no! Ese no era el único problema.
+                Parece que la Suerte te ha ayudado una vez más. Desafortunadamente, ella no puede
+                salvarte de todas las situaciones. Al menos, tu desgracia puede convertirse en la
+                fortuna de otro.</p>
+              <p>La Suerte puede ser caprichosa, pero si logras atraerla a tu lado, las posibilidades son
+                infinitas.</p>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Bke9wvob8Ls?si=kMmyZ68CwPQ-ZaDK"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="mt-auto text-center py-4 bg-dark">
+    <p class="yellow-dark-color mb-0">&copy; 2025 Vault-Tec. Todos los derechos reservados.</p>
+  </footer>
 
-    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-    <script src="https://files.bpcontent.cloud/2025/02/19/18/20250219185806-I5AZX42L.js"></script>
+  <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2025/02/19/18/20250219185806-I5AZX42L.js"></script>
 </body>
 
 </html>
