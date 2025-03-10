@@ -30,6 +30,10 @@ La página de noticias mantiene a los usuarios informados sobre los últimos aco
 - **CSS3**: Para los estilos personalizados.
 - **Bootstrap 5**: Para el diseño responsivo y componentes predefinidos.
 
+## Enlace a la web
+
+[Enlace a la web del proyecto, alojada en github pages](https://agarmas.github.io/vault-tec-web/)
+
 ## Autor
 
 - Antonio Grrido Massé
