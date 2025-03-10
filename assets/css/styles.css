@@ -107,3 +107,15 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+
+/* Carrusel */
+
+#carouselNews {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.news-section {
+  max-width: 900px;
+  margin: 0 auto;
+}

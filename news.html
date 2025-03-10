@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Noticias de Vault-Tec - S.P.E.C.I.A.L.">
+  <meta name="description" content="Noticias de Vault-Tec - Noticias">
   <title>Vault-Tec - Noticias</title>
   <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
@@ -30,7 +30,6 @@
             <li class="nav-item"><a class="nav-link" href="./history.html">Nuestra historia</a></li>
             <li class="nav-item"><a class="nav-link" href="./special.html">S.P.E.C.I.A.L</a></li>
             <li class="nav-item"><a class="nav-link active" aria-current="page" href="./news.html">Noticias</a></li>
-            <li class="nav-item"><a class="nav-link" href="./map.html">Mapa</a></li>
           </ul>
         </div>
       </div>
@@ -43,18 +42,94 @@
       <p>Mantente informado sobre los últimos acontecimientos en el páramo y las novedades de Vault-Tec.</p>
     </section>
 
-    <section>
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        
+
+    <section id="carouselNews" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Noticia Hermandad del Acero"></button>
+        <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="1" aria-label="Noticia synths"></button>
+        <button type="button" data-bs-target="#carouselNews" data-bs-slide-to="2" aria-label="Noticia Caesar"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="./assets/img/bos_new.webp" class="d-block w-100" alt="Noticia Hermandad del Acero">
+          <div class="carousel-caption d-none d-md-block bg-dark">
+            <h5>La Hermandad del Acero continúa su labor limpiando el yermo de mutantes.</h5>
+            <p>Exploradores informan sobre un aumento del armamento usado y de los efectivos de la hermandad del acero,
+              siguen pareciendo neutrales a nuestro refugio.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./assets/img/synth_new.webp" class="d-block w-100" alt="Noticia synths">
+          <div class="carousel-caption d-none d-md-block bg-dark">
+            <h5>Mejoras contínuas de los synths.</h5>
+            <p>El Instituto sigue mejorando a sus synths ¿Cuando pararemos de distinguirlos de los humanos?.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="./assets/img/legion_new.webp" class="d-block w-100" alt="Noticia Caesar">
+          <div class="carousel-caption d-none d-md-block bg-dark">
+            <h5>Continua expansión de Caesar.</h5>
+            <p>La legión de Caesar sigue expandiéndose por el oeste de nuestra antigua nación, ¿Alguién podrá
+              detenerlos?.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselNews" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselNews" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </section>
+
+    <section class="mt-5">
+      <div class="container">
+        <article class="mb-5 p-4 bg-dark text-light rounded">
+          <h2 class="text-center">La Hermandad del Acero refuerza su presencia</h2>
+          <img src="./assets/img/bos_new.webp" class="img-fluid rounded mx-auto d-block my-3"
+            alt="Noticia Hermandad del Acero">
+          <p>
+            La Hermandad del Acero ha intensificado sus patrullas en el páramo, asegurando que su misión sigue siendo la
+            preservación de la tecnología y la protección de los ciudadanos.
+            Sin embargo, numerosos informes sugieren que han comenzado a intervenir en asentamientos independientes,
+            desatando tensiones con otras facciones. ¿Se convertirá la Hermandad en una fuerza protectora o en un
+            régimen opresivo?
+          </p>
+        </article>
+
+        <article class="mb-5 p-4 bg-dark text-light rounded">
+          <h2 class="text-center">Mejoras en los Synths: ¿Aliados o amenaza?</h2>
+          <img src="./assets/img/synth_new.webp" class="img-fluid rounded mx-auto d-block my-3" alt="Noticia synth">
+          <p>
+            El Instituto ha dado un paso más en la evolución de los Synths, logrando que sean prácticamente
+            indistinguibles de los humanos.
+            Esta situación ha generado un intenso debate: mientras algunos los ven como una esperanza para el futuro,
+            otros temen que puedan suponer una amenaza a la identidad y seguridad de la humanidad.
+            ¿Cómo reaccionarán las demás facciones ante este avance?
+          </p>
+        </article>
+
+        <article class="mb-5 p-4 bg-dark text-light rounded">
+          <h2 class="text-center">La expansión de Caesar: ¿Una nueva era de dominio?</h2>
+          <img src="./assets/img/legion_new.webp" class="img-fluid rounded mx-auto d-block my-3" alt="Noticia Caesar">
+          <p>
+            La Legión de Caesar continúa su imparable expansión, sometiendo a asentamientos sin apenas resistencia. Su
+            estrategia brutal pero efectiva ha dejado a muchos líderes en el páramo en estado de alerta.
+            Mientras algunos consideran que es solo cuestión de tiempo antes de que se enfrenten a una gran coalición de
+            resistencia, otros creen que nadie podrá frenar su avance.
+            ¿Estamos ante el inicio de una guerra total?
+          </p>
+        </article>
+      </div>
     </section>
   </main>
 
   <footer class="mt-auto text-center py-4 bg-dark">
     <p class="yellow-dark-color mb-0">&copy; 2025 Vault-Tec. Todos los derechos reservados.</p>
   </footer>
-
-  <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-  <script src="https://files.bpcontent.cloud/2025/02/19/18/20250219185806-I5AZX42L.js"></script>
 </body>
 
 </html>
