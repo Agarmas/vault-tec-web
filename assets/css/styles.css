@@ -1,10 +1,5 @@
 /* Fonts */
 @font-face {
-  font-family: 'overseer';
-  src: url("../fonts/overseer.woff2") format('woff2');
-}
-
-@font-face {
   font-family: 'monofonto';
   src: url("../fonts/monofonto.woff2") format('woff2');
 }
